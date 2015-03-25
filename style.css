@@ -1,0 +1,46 @@
+*{
+	background-color: #0b1522;
+	color:white;
+}
+
+label{
+	background-color: #808080;
+
+}
+fieldset{
+	background-color: #808080;
+	max-width: 60%;
+	margin-left: 20%;
+}
+
+input[type="name"]{
+	background-color: #808080;
+}
+input[type="email"]{
+	background-color: #808080;
+}
+input[type="em2"]{
+	background-color: #808080;
+}
+input[type="submit"]{
+	background-color: #808080;
+}
+#student{
+	background-color: white;
+	color:black;
+}
+#site{
+	background-color: white;
+	color: black;
+}
+#twitter{
+	background-color: white;
+	color: black;
+}
+legend{
+	background-color: white;
+	color: black;
+}
+h1{
+	text-align: center;
+}
