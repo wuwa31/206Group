@@ -1,0 +1,46 @@
+* {
+	background-color: #0b1522;
+	color:white;
+}
+
+label {
+	background-color: #808080;
+	display: block;
+	padding: 3px 0px;
+}
+
+fieldset {
+	background-color: #808080;
+	max-width: 90%;
+	margin: 0px 5px;
+}
+
+input {
+	background-color: #808080;
+	padding: 3px;
+}
+
+#student {
+	background-color: white;
+	color:black;
+}
+
+#site { 
+	background-color: white;
+	color: black;
+}
+
+#twitter {
+	background-color: white;
+	color: black;
+}
+
+legend {
+	background-color: white;
+	color: black;
+	padding: 5px;
+}
+
+h1{
+	text-align: center;
+}
