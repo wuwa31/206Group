@@ -5,6 +5,7 @@
 	<title>Form</title>
 	<link href="default.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
+	<link href="formPage.css" rel="stylesheet">
 	<script type="text/javascript">
 		 function checkEmail(){
 		 	if (em.value != em2.value){
