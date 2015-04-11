@@ -39,9 +39,9 @@ a {
 	}
 
 	.button {
-		width: 45%;
-		padding: 5% 1.5%;
-		margin: 0.2%;
+		width: 44%;
+		padding: 6% 1.5%;
+		margin: 0.2% 0.25%;
 	}
 }
 
@@ -80,5 +80,6 @@ a {
 	.button:active {
 		background-color: #ecf0f1;
 		color: #2c3e50;
+		transition: 0s ease;
 	}
 }
