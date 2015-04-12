@@ -4,14 +4,13 @@
 		<meta charset="UTF-8">
 		<title>Restaurants</title>
 		<link href="default.css" rel="stylesheet">
-		<link href="style.css" rel="stylesheet">
-		<link href="mediaquery.css" rel="stylesheet">
+		<link href="sharedcss.css" rel="stylesheet">
 	</head>
 	<body>
 		<? php
 			include("header.php");
 		?>
-		
+
 		<h1> Restaurants</h1> 
 
 		<div class="post">
@@ -48,7 +47,7 @@
 					<h4>Ama's Bistro</h4>
 					<p>Also a newcomer to Ann Arbor, this bistro is open late night on the weekend. Ama's has classic diner food with some amazing specials.</p>
 				</div>	
-
+		</div>
 		<div class="post">
 			<div class="post_title"><h3> Where do you go for fine dining? </h3></div>
 				<div class="item">
@@ -93,7 +92,7 @@
 						<figcaption>1100 Catherine St, Ann Arbor, MI 48104</figcaption>
 					</figure> 	
 					<h4>Angelo's Brunch</h4>
-					<p> If you haven't crawled out of bed on a Sunday morning to eat at Angelo's, then do you even go to this school? Try their classic breakfast items or their specials. The Huevos Rancheros are a personal favorite. Be prepared to wait for a table but don't worry its worth it.</p></div>
+					<p> If you haven't crawled out of bed on a Sunday morning to eat at Angelo's, then do you even go to this school? Try their classic breakfast items or their specials. The Huevos Rancheros are a personal favorite. Be prepared to wait for a table but don't worry its worth it.</p>
 				</div>
 				<div class="item">
 					<figure> 
@@ -101,7 +100,7 @@
 						<figcaption>314 E Liberty St, Ann Arbor, MI 48104</figcaption>
 					</figure> 
 					<h4>Guac and Margarita's at Isalita</h4>
-					<p>	Their frozen blood orange margarita's are like adult slurpies! Come to happy hour to get them half off.	</p></div>
+					<p>	Their frozen blood orange margarita's are like adult slurpies! Come to happy hour to get them half off.	</p>
 				</div>
 				<div class="item">
 					<figure> 
@@ -109,7 +108,7 @@
 						<figcaption>311 S Main St, Ann Arbor, MI 48104</figcaption>
 					</figure> 
 					<h4>Truffle Pizza at Jolly Pumpkin</h4>
-					<p>Such a cool Ann Arbor establishment! Jolly Pumpkin combines great quality food with a pub atmosphere. Try the beer sampler and the pizza's are all amazing.
+					<p>Such a cool Ann Arbor establishment! Jolly Pumpkin combines great quality food with a pub atmosphere. Try the beer sampler and the pizza's are all amazing.</p>
 				</div>
 				<div class="item">
 					<figure> 
@@ -120,7 +119,6 @@
 					<p>Jeruselam's Gardens is a mix of fresh food with classic middle eastern fares! Get their takeout on any night and the falafel is the best in Ann Arbor! </p>
 				</div>
 		</div>
-
 		<? php
 			include("footer.php");
 		?>
