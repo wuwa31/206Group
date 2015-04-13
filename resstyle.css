@@ -75,3 +75,34 @@ h4{
 	float: right;
 	font-family: Tahoma;
 }
+
+/*tablet*/
+
+@media only screen and (min-width:720px) and (max-width:985px){
+	.content{
+		float: none;
+		text-align: center;
+		margin:auto;
+	}
+
+	.sidebar{
+		float: none;
+		margin: auto;
+		margin-bottom: 5%;
+	}
+}
+
+/*mobile*/
+
+@media only screen and (max-width:719px){
+	.content{
+		float: none;
+		text-align: center;
+		margin: auto;
+	}
+
+	.sidebar{
+		display: none;
+	}
+	
+}
