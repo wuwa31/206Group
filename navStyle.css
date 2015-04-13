@@ -1,8 +1,8 @@
-* {
-	font-family: 'Poiret One', Helvetica;
+#navHeader {
+	margin-bottom: 10%;
 }
 
-nav {
+#navBar {
 	display: inline-block;
 	background-color: #2c3e50;
 
@@ -28,13 +28,14 @@ nav {
 	border-radius: 30px;
 }
 
-a {
+.navLink {
 	text-decoration: none;
 	color: #2c3e50;
+	background-color: #2c3e50;
 }
 
 @media only screen and (max-width: 719px) {
-	nav {
+	#navBar {
 		width: 90%;
 	}
 
@@ -46,28 +47,28 @@ a {
 }
 
 @media only screen and (min-width: 720px) {
-	nav {
+	#navBar {
 		width: 95%;
 	}
 
 	.button {
-		width: 16.7%;
+		width: 16.4%;
 		padding: 1%;
 	}
 
-	a {
+	.navLink {
 		text-decoration: none;
 		color: #2c3e50;
 	}
 }
 
 @media only screen and (min-width: 985px) {
-	nav {
+	#navBar {
 		width: 95%;
 	}
 
 	.button {
-		width: 17%;
+		width: 16.8%;
 		padding: 1%;
 	}
 
