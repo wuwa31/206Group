@@ -48,6 +48,11 @@ section {
 	clear: left;
 }
 
+footer{
+	bottom: 0;
+	position: relative;
+}
+
 @media only screen and (max-width: 719px) {
 	.leftImages, .rightImages {
 		display: none;
