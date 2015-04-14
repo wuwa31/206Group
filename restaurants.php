@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $currentPage = basename(__FILE__); ?>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -6,6 +7,7 @@
 		<link href="default.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 		<link href="resstyle.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="navStyle.css">
 		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 		<script>
 		    google.load('visualization', '1', { 'packages': ['map'] });
@@ -37,12 +39,8 @@
 		</script>
 	</head>
 	<body>
-		<? php
-			$Name = basename(__FILE__);
-			include("header.php");
-		?>
-
 		<h1>Ann Arbor Restaurants</h1> 
+		<?php include("header.php"); ?>
 		
 		<h3> Best Late night food </h3>
 
@@ -208,7 +206,7 @@
 		
 	    <div id="chart_div"></div>
 
-		<? php
+		<?php
 			include("footer.php");
 		?>
 
