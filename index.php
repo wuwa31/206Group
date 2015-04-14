@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link rel="stylesheet" type="text/css" href="aboutStyle.css">
@@ -49,6 +50,20 @@
 	include ('navBar.php');
 ?>
 </section>
+
+<script type="text/javascript">
+    var currentTime = new Date()
+
+    var hours = currentTime.getHours()   
+
+	if (hours > 5 && hours <= 18){
+        document.getElementsByClassName.style.backgroundImage="url('kerryd.jpg')";
+    } 
+    else if (hours > 18 && hours <= 5) {
+		document.body.style.backgroundImage="url('night.jpg')";
+	}
+
+</script>
 
 	<secton class='one'>
 		<div class='content'>
